@@ -6,7 +6,9 @@ import com.cbo.sso.services.UserService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -17,6 +19,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.io.IOException;
 import java.net.URI;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -38,6 +42,27 @@ public class UserController {
     public ResponseEntity<List<User>> getAllusers(){
         List<User> users = userService.findAllUser();
         return new ResponseEntity<>(users, HttpStatus.OK);
+    }
+
+    @GetMapping("/signatureImagePath/{id}")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    public ResponseEntity<byte[]> getEmployeeSignatureImage(@PathVariable long id) {
+        System.out.println("Inside getEmployeeSignatureImage = employee"+id);
+        User employee = userService.findUserById(id);
+        String imagePath = employee.getSignatureImage();
+        System.out.println("signature_image = " + imagePath);
+        String imageFilePath = "./user-photos/employee/"+id+"/"+imagePath;
+        try {
+            System.out.println(imageFilePath);
+            byte[] imageBytes = Files.readAllBytes(Paths.get(imageFilePath));
+            System.out.println(imageBytes);
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.IMAGE_JPEG);
+            headers.setContentLength(imageBytes.length);
+            return new ResponseEntity<>(imageBytes, headers, HttpStatus.OK);
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
     @GetMapping("/find/{id}")
     public ResponseEntity<User> getUserId (@PathVariable("id") Long id) {

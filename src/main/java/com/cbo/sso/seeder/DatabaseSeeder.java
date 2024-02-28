@@ -80,6 +80,7 @@ public class DatabaseSeeder {
         seedRolesTable(ROLE_SMS_ADMIN, ROLE_SUPER_ADMIN);
         seedRolesTable(ROLE_SMS_USER, ROLE_SMS_ADMIN);
 
+
         this.role = this.roleService.findRoleById(7L);
         Set<Role> setOfRoles1 = new HashSet<>();
         setOfRoles1.add(this.role);

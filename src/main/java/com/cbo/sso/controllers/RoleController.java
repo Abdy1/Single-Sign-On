@@ -38,7 +38,7 @@ public class RoleController {
         return new ResponseEntity<>(roles, HttpStatus.OK);
     }
     @GetMapping("/find/{id}")
-    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN', ROLE_ICMS_DISTRICT_DIRECTOR )")
     public ResponseEntity<Role> getRoleId (@PathVariable("id") Long id) {
         Role role= roleService.findRoleById(id);
         return new ResponseEntity<>(role, HttpStatus.OK);
