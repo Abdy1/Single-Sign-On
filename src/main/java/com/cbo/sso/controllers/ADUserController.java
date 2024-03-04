@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping
+
 public class ADUserController {
     private final LdapTemplate ldapTemplate;
     @Value("${ad.url}")

@@ -109,7 +109,7 @@ public class LdapSecurityConfiguration extends WebSecurityConfigurerAdapter {
     }
 //    protected void configure(HttpSecurity http) throws Exception {
 //        ((HttpSecurity)((HttpSecurity)((HttpSecurity)((FormLoginConfigurer)((FormLoginConfigurer)((FormLoginConfigurer)((HttpSecurity)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((HttpSecurity)http.cors().and())
-//                .authorizeRequests().antMatchers(new String[]{"/login"})).permitAll().anyRequest())
+//                .authorizeRequests().antMatchers(new String[]{"/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**"})).permitAll().anyRequest())
 //                .authenticated().and()).formLogin().successHandler((request, response, authentication) -> {
 //            SecurityContextHolder.getContext().setAuthentication(authentication);
 //            String username = authentication.getName();
@@ -151,8 +151,7 @@ protected void configure(HttpSecurity http) throws Exception {
     http
             .cors().and()
             .authorizeRequests()
-            .antMatchers("/login").permitAll() // Permit access to the /login endpoint
-            .antMatchers("/redirect-to-outlook").permitAll() // Permit access to the /redirect-to-outlook endpoint
+            .antMatchers("/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**").permitAll()
             .anyRequest().authenticated()
             .and()
             .formLogin().successHandler((request, response, authentication) -> {
