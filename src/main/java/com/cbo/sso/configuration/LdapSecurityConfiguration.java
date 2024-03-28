@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+
+import microsoft.exchange.webservices.data.credential.WebCredentials;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -90,8 +92,15 @@ public class LdapSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     UserRepository userRepository;
 
-    public LdapSecurityConfiguration() {
-    }
+
+//    private final EwsSecurityConfiguration ewsSecurityConfiguration;
+//
+//    // Constructor injection to inject EwsSecurityConfiguration bean
+//    @Autowired
+//    public LdapSecurityConfiguration(EwsSecurityConfiguration ewsSecurityConfiguration) {
+//        this.ewsSecurityConfiguration = ewsSecurityConfiguration;
+//    }
+
 
     public UserDetailsContextMapper userDetailsContextMapper() {
         return new LdapUserDetailsMapper() {
@@ -107,90 +116,94 @@ public class LdapSecurityConfiguration extends WebSecurityConfigurerAdapter {
             }
         };
     }
-//    protected void configure(HttpSecurity http) throws Exception {
-//        ((HttpSecurity)((HttpSecurity)((HttpSecurity)((FormLoginConfigurer)((FormLoginConfigurer)((FormLoginConfigurer)((HttpSecurity)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((HttpSecurity)http.cors().and())
-//                .authorizeRequests().antMatchers(new String[]{"/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**"})).permitAll().anyRequest())
-//                .authenticated().and()).formLogin().successHandler((request, response, authentication) -> {
-//            SecurityContextHolder.getContext().setAuthentication(authentication);
-//            String username = authentication.getName();
-//            if (username != null) {
-//                UserService userService = new UserService(this.userRepository);
-//                User user = userService.findUserByUsername(username);
-////                if(user.getRoles() !=null){
-////                    Set<Role> roles = null;
-////                    user.setRoles(roles);
-////                }
-//                Set<Role> rolesSet = user.getRoles();
-//                List<ERole> rolesEnumList = (List)rolesSet.stream().map(Role::getName).collect(Collectors.toList());
-//                List<String> rolesList = (List)rolesEnumList.stream().map(Enum::name).collect(Collectors.toList());
-//                Collection<GrantedAuthority> grantedAuthorities = (Collection)rolesList.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList());
-//                String token = this.jwtUtils.createToken(username, grantedAuthorities);
-//                if (this.jwtUtils.validateToken(token)) {
-//                    JwtResponse jwtResponse = new JwtResponse();
-//                    jwtResponse.setUser(user);
-//                    jwtResponse.setAccessToken(token);
-//                    response.setStatus(200);
-//                    ObjectMapper objectMapper = new ObjectMapper();
-//                    response.getWriter().write(objectMapper.writeValueAsString(jwtResponse));
-//                }
-//            }
-//            response.sendRedirect("/redirect-to-outlook");
-//        })).failureHandler((request, response, exception) -> {
-//            response.setStatus(401);
-//            if (exception instanceof BadCredentialsException) {
-//                response.getWriter().write("Invalid username or password");
-//            } else if (exception instanceof LockedException) {
-//                response.getWriter().write("Your account is locked");
-//            } else {
-//                response.getWriter().write("Authentication failed for an unknown reason");
-//            }
-//        })).permitAll()).and()).csrf().disable()).exceptionHandling().authenticationEntryPoint(this.jwtAuthenticationEntryPoint).and()).sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-//        http.addFilterBefore(this.jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-//    }
-protected void configure(HttpSecurity http) throws Exception {
-    http
-            .cors().and()
-            .authorizeRequests()
-            .antMatchers("/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**").permitAll()
-            .anyRequest().authenticated()
-            .and()
-            .formLogin().successHandler((request, response, authentication) -> {
-                SecurityContextHolder.getContext().setAuthentication(authentication);
-                String username = authentication.getName();
+    protected void configure(HttpSecurity http) throws Exception {
+        ((HttpSecurity)((HttpSecurity)((HttpSecurity)((FormLoginConfigurer)((FormLoginConfigurer)((FormLoginConfigurer)((HttpSecurity)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((ExpressionUrlAuthorizationConfigurer.AuthorizedUrl)((HttpSecurity)http.cors().and())
+                .authorizeRequests().antMatchers(new String[]{"/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**","/redirect-to-outlook"})).permitAll().anyRequest())
+                .authenticated().and()).formLogin().successHandler((request, response, authentication) -> {
+            SecurityContextHolder.getContext().setAuthentication(authentication);
+            String username = authentication.getName();
+            String password = (String) authentication.getCredentials();
 
-                if (username != null) {
 
-                    UserService userService = new UserService(this.userRepository);
-                    User user = userService.findUserByUsername(username);
-                    Set<Role> rolesSet = user.getRoles();
-                    List<ERole> rolesEnumList = (List)rolesSet.stream().map(Role::getName).collect(Collectors.toList());
-                    List<String> rolesList = (List)rolesEnumList.stream().map(Enum::name).collect(Collectors.toList());
-                    Collection<GrantedAuthority> grantedAuthorities = (Collection)rolesList.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList());
 
-                    String token = this.jwtUtils.createToken(username, grantedAuthorities);
-                    if (this.jwtUtils.validateToken(token)) {
-                        JwtResponse jwtResponse = new JwtResponse();
-                        jwtResponse.setUser(user);
-                        jwtResponse.setAccessToken(token);
-                        response.setStatus(200);
-                        ObjectMapper objectMapper = new ObjectMapper();
-                        response.getWriter().write(objectMapper.writeValueAsString(jwtResponse));
-                        logger.info(String.valueOf(jwtResponse));
-                    }
+            if (username != null) {
+                UserService userService = new UserService(this.userRepository);
+                User user = userService.findUserByUsername(username);
+                Set<Role> rolesSet = user.getRoles();
+                List<ERole> rolesEnumList = (List)rolesSet.stream().map(Role::getName).collect(Collectors.toList());
+                List<String> rolesList = (List)rolesEnumList.stream().map(Enum::name).collect(Collectors.toList());
+                Collection<GrantedAuthority> grantedAuthorities = (Collection)rolesList.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList());
+                String token = this.jwtUtils.createToken(username, grantedAuthorities);
+                if (this.jwtUtils.validateToken(token)) {
+                    JwtResponse jwtResponse = new JwtResponse();
+                    jwtResponse.setUser(user);
+                    jwtResponse.setAccessToken(token);
+                    response.setStatus(200);
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    response.getWriter().write(objectMapper.writeValueAsString(jwtResponse));
+
+
                 }
 
-//                response.sendRedirect("/redirect-to-outlook");
-            })
-            .and()
-            .logout().logoutUrl("/logout").permitAll()
-            .and()
-            .csrf().disable()
-            .exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint)
-            .and()
-            .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+            }
 
-    http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-}
+        })).failureHandler((request, response, exception) -> {
+            response.setStatus(401);
+            if (exception instanceof BadCredentialsException) {
+                response.getWriter().write("Invalid username or password");
+            } else if (exception instanceof LockedException) {
+                response.getWriter().write("Your account is locked");
+            } else {
+                response.getWriter().write("Authentication failed for an unknown reason");
+            }
+        })).permitAll()).and()).csrf().disable()).exceptionHandling().authenticationEntryPoint(this.jwtAuthenticationEntryPoint).and()).sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        http.addFilterBefore(this.jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+    }
+
+//protected void configure(HttpSecurity http) throws Exception {
+//    http
+//            .cors().and()
+//            .authorizeRequests()
+//            .antMatchers("/login", "/swagger-ui/**", "/v2/api-docs/**", "/swagger-resources/**").permitAll()
+//            .anyRequest().authenticated()
+//            .and()
+//            .formLogin().successHandler((request, response, authentication) -> {
+//                SecurityContextHolder.getContext().setAuthentication(authentication);
+//                String username = authentication.getName();
+//
+//                if (username != null) {
+//
+//                    UserService userService = new UserService(this.userRepository);
+//                    User user = userService.findUserByUsername(username);
+//                    Set<Role> rolesSet = user.getRoles();
+//                    List<ERole> rolesEnumList = (List)rolesSet.stream().map(Role::getName).collect(Collectors.toList());
+//                    List<String> rolesList = (List)rolesEnumList.stream().map(Enum::name).collect(Collectors.toList());
+//                    Collection<GrantedAuthority> grantedAuthorities = (Collection)rolesList.stream().map(SimpleGrantedAuthority::new).collect(Collectors.toList());
+//
+//                    String token = this.jwtUtils.createToken(username, grantedAuthorities);
+//                    if (this.jwtUtils.validateToken(token)) {
+//                        JwtResponse jwtResponse = new JwtResponse();
+//                        jwtResponse.setUser(user);
+//                        jwtResponse.setAccessToken(token);
+//                        response.setStatus(200);
+//                        ObjectMapper objectMapper = new ObjectMapper();
+//                        response.getWriter().write(objectMapper.writeValueAsString(jwtResponse));
+//                        logger.info(String.valueOf(jwtResponse));
+//                    }
+//                }
+//
+////                response.sendRedirect("/redirect-to-outlook");
+//            })
+//            .and()
+//            .logout().logoutUrl("/logout").permitAll()
+//            .and()
+//            .csrf().disable()
+//            .exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint)
+//            .and()
+//            .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+//
+//    http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+//}
 
     public void configure(AuthenticationManagerBuilder authMake) throws Exception {
         authMake.ldapAuthentication()

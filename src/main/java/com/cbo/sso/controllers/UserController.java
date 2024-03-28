@@ -69,6 +69,7 @@ public class UserController {
     public ResponseEntity<User> getUserId (@PathVariable("id") Long id) {
         User user= userService.findUserById(id);
         return new ResponseEntity<>(user, HttpStatus.OK);
+
     }
 
     @PostMapping("/add")
