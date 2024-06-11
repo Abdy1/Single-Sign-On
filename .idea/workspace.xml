@@ -5,33 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8cb289-e1e0-435c-98a4-377924ac19b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/models/AWSCredential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/models/EWSSimpleSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/ExchangeServiceWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/configuration/EwsSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/configuration/EwsSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/configuration/LdapSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/configuration/LdapSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/ADUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/ADUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/EWSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/EWSController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/models/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/EWSAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/EWSAuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/UserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/UserDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/configuration/LdapSecurityConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/configuration/LdapSecurityConfiguration$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/configuration/LdapSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/configuration/LdapSecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/ADUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/ADUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/UserController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/UserController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/models/ERole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/models/ERole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cbo/sso/services/UserDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cbo/sso/services/UserDetailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sso-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sso-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sso-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sso-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/ExchangeServiceWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/ExchangeServiceWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbo/sso/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/SpringBoot/ams",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SpringBoot/ams&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
