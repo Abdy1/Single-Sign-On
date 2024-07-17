@@ -20,7 +20,7 @@ public class ModuleController {
         this.moduleService = moduleService;
     }
     @GetMapping("/getAll")
-    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'ICMS_ADMIN', 'ECX_ADMIN', 'ROLE_ICMS_BRANCH_MANAGER')")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN', 'ICMS_ADMIN', 'ECX_ADMIN', 'ROLE_ICMS_BRANCH_MANAGER')")
     public ResponseEntity<List<Module>> getAllModule(){
         List<Module> modules = moduleService.findAllModule();
         return new ResponseEntity<>(modules, HttpStatus.OK);

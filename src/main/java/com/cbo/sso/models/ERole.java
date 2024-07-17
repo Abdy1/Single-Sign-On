@@ -2,6 +2,7 @@ package com.cbo.sso.models;
 
 public enum ERole {
     ROLE_SUPER_ADMIN,
+    ROLE_SYSTEM_ADMIN,
     ROLE_EMS_ADMIN,
     ROLE_EMS_USER,
     ROLE_CC_ADMIN,

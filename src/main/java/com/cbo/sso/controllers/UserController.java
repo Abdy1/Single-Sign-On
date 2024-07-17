@@ -118,7 +118,7 @@ public class UserController {
 
 
     @PostMapping("/update")
-    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
     public ResponseEntity<User> updateUser(@RequestBody
                                         @RequestParam(name="username") String username,
                                         @RequestPart("roles") MultipartFile rolesFile
