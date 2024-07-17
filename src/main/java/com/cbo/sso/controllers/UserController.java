@@ -120,8 +120,8 @@ public class UserController {
     @PostMapping("/update")
     @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
     public ResponseEntity<User> updateUser(@RequestBody
-                                        @RequestParam(name="username") String username,
-                                        @RequestPart("roles") MultipartFile rolesFile
+                                           @RequestParam(name="username") String username,
+                                           @RequestPart("roles") MultipartFile rolesFile
     ) throws IOException {
 
         User newUser = userService.updateUser(username, rolesFile);
@@ -188,7 +188,7 @@ public class UserController {
                         System.out.println(empid + "don't exist creating new one");
                         // Check if "id" is not empty before adding data
 
-                            // Call your store method or perform other actions
+                        // Call your store method or perform other actions
 
                         addUserAutomation(adid,empid,roles);
                         System.out.println("username " +adid + "id" + empid + "role" + "DEFAULT");

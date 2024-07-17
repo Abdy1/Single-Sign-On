@@ -48,8 +48,8 @@ import java.util.*;
 
 public class UserService {
     private final UserRepository userRepository;
-//    private final EmployeeRepository employeeRepository;
-  User theOne;
+    //    private final EmployeeRepository employeeRepository;
+    User theOne;
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -57,61 +57,61 @@ public class UserService {
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-public User addUser(User user, MultipartFile employeeImg, MultipartFile signatureImg) throws IOException {
-    User savedU = new User();
-    System.out.println("user = "+user);
-    System.out.println("empimg = "+employeeImg);
-    User existingUser = null;
-    if(user.getId() != null){
-        existingUser = userRepository.findById(user.getId()).orElse(null);
+    public User addUser(User user, MultipartFile employeeImg, MultipartFile signatureImg) throws IOException {
+        User savedU = new User();
+        System.out.println("user = "+user);
+        System.out.println("empimg = "+employeeImg);
+        User existingUser = null;
+        if(user.getId() != null){
+            existingUser = userRepository.findById(user.getId()).orElse(null);
 
-    }
-    User userByName = userRepository.findByUsername(user.getUsername());
+        }
+        User userByName = userRepository.findByUsername(user.getUsername());
 
-    if(userByName != null)
+        if(userByName != null)
             throw new UserAlreadyExistsException("User already exists!");
 
-    if (existingUser != null)
-        throw new UserAlreadyExistsException("User already exists!");
-    else {
-        System.out.println("employeeImg = "+employeeImg);
-        if(employeeImg != null){
-            savedU = userRepository.save(user);
-            String uploadDir = "user-photos/employee/" + savedU.getId();
-            System.out.println("  upload = "+uploadDir);
-            FileUploadUtil.saveFile(uploadDir, user.getEmployeeImage(), employeeImg);
-            FileUploadUtil.saveFile(uploadDir, user.getSignatureImage(), signatureImg);
-            return savedU;
-        }else{
-            savedU = userRepository.save(user);
-            return savedU;
+        if (existingUser != null)
+            throw new UserAlreadyExistsException("User already exists!");
+        else {
+            System.out.println("employeeImg = "+employeeImg);
+            if(employeeImg != null){
+                savedU = userRepository.save(user);
+                String uploadDir = "user-photos/employee/" + savedU.getId();
+                System.out.println("  upload = "+uploadDir);
+                FileUploadUtil.saveFile(uploadDir, user.getEmployeeImage(), employeeImg);
+                FileUploadUtil.saveFile(uploadDir, user.getSignatureImage(), signatureImg);
+                return savedU;
+            }else{
+                savedU = userRepository.save(user);
+                return savedU;
+            }
         }
     }
-}
-public User updateUser(String username, MultipartFile rolesFile) throws IOException {
-    ObjectMapper objectMapper = new ObjectMapper();
-    Set<Role> roles = objectMapper.readValue(rolesFile.getBytes(), new TypeReference<Set<Role>>(){});
-    User user = userRepository.findByUsername(username);
-    Set<Role> allRoles = user.getRoles();
-    allRoles.addAll(roles);
-    user.setRoles(allRoles);
-    userRepository.save(user);
-    return user;
+    public User updateUser(String username, MultipartFile rolesFile) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        Set<Role> roles = objectMapper.readValue(rolesFile.getBytes(), new TypeReference<Set<Role>>(){});
+        User user = userRepository.findByUsername(username);
+        Set<Role> allRoles = user.getRoles();
+        allRoles.addAll(roles);
+        user.setRoles(allRoles);
+        userRepository.save(user);
+        return user;
     }
 
     public User deleteUserRole(Long user_id, Long role_id) throws IOException {
         User user = userRepository.findUserById(user_id).get();
 
-            Set<Role> roles = user.getRoles();
-            Iterator<Role> iterator = roles.iterator();
-            while(iterator.hasNext()){
-                Role role = iterator.next();
-                if(role.getId().equals(role_id)){
-                    iterator.remove();
-                    break;
-                }
+        Set<Role> roles = user.getRoles();
+        Iterator<Role> iterator = roles.iterator();
+        while(iterator.hasNext()){
+            Role role = iterator.next();
+            if(role.getId().equals(role_id)){
+                iterator.remove();
+                break;
             }
-            userRepository.save(user);
+        }
+        userRepository.save(user);
 
 
         return user;
@@ -180,7 +180,10 @@ public User updateUser(String username, MultipartFile rolesFile) throws IOExcept
     public User getLastUser() {
         return userRepository.findFirstByOrderByIdDesc();
     }
+    public User findUserByUserId(Long id){
+        return userRepository.findUserById(id).orElse(null);
 
+    }
 
 
 }
