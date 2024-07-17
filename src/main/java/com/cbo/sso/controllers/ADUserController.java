@@ -1,7 +1,9 @@
 package com.cbo.sso.controllers;
 
 import com.cbo.sso.models.ADUserDetails;
+import com.cbo.sso.models.User;
 import com.cbo.sso.services.UserDetailService;
+import com.cbo.sso.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ldap.core.ContextMapper;
@@ -19,8 +21,8 @@ import java.util.List;
 
 public class ADUserController {
     private final LdapTemplate ldapTemplate;
-
-
+@Autowired
+private UserService userService;
     @Value("${ad.url}")
     private String adUrl;
     @Value("${ad.port}")
@@ -59,6 +61,15 @@ public class ADUserController {
 
     @GetMapping("/ADUser/search/{samAccountName}")
     public List<ADUserDetails> searchBySamAccountName(@PathVariable String samAccountName) {
+        return userDetailService.getDetail(samAccountName);
+    }
+    @GetMapping("/ADUser/searchById/{id}")
+    public List<ADUserDetails> searchByUserId(@PathVariable Long id) {
+       User user =  userService.findUserByUserId(id);
+       return  searchByUserName(user.getUsername());
+    }
+
+    public List<ADUserDetails> searchByUserName(String samAccountName) {
         return userDetailService.getDetail(samAccountName);
     }
 }
