@@ -103,6 +103,7 @@ public class ExchangeServiceWrapper {
 
                     message.getToRecipients().add(userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail());
                     System.out.println("added " +  userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail());
+
                 }
                 System.out.println("id detected");
             }

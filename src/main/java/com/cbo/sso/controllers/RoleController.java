@@ -32,7 +32,7 @@ public class RoleController {
     }
 
     @GetMapping("/getRoles")
-    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN', 'ROLE_ICMS_BRANCH_MANAGER' )")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'SYSTEM_ADMIN','CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN', 'ROLE_ICMS_BRANCH_MANAGER' )")
     public ResponseEntity<List<Role>> getRoles() {
         List<Role> roles = roleRepository.findAllRoles();
         return new ResponseEntity<>(roles, HttpStatus.OK);
