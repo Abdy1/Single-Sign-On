@@ -13,7 +13,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URI;
+import java.time.LocalDate;
 
 @Service
 public class ExchangeServiceWrapper {
@@ -108,7 +112,14 @@ public class ExchangeServiceWrapper {
                 System.out.println("id detected");
             }
 
+
             message.send();
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("informations/mailLogs.txt", true))) {
+                writer.write("Email Sent to " + message.getToRecipients() + " at " + LocalDate.now() + " about " + message.getBody()) ;
+                writer.newLine();
+            } catch (IOException e) {
+                System.out.println( "Writing to mailLogs.txt failed");
+            }
             ResponseEntity.ok("Email sent successfully.");
         } catch (Exception e){
             System.err.println("Error sending email: " + e.getMessage());
