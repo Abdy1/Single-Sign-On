@@ -78,7 +78,7 @@ public class UserController {
 
     }
     @PostMapping("/add")
-    @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    @PreAuthorize("hasAnyRole('SYSTEM_ADMIN')")
     public ResponseEntity<User> addUser(@RequestBody
                                         @RequestParam(name="employeeImage", required = false) MultipartFile employeeImage,
                                         @RequestParam(name="signatureImage", required = false) MultipartFile signatureImage,
