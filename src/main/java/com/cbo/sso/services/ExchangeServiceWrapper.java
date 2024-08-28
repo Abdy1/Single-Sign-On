@@ -13,7 +13,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URI;
+import java.time.LocalDate;
 
 @Service
 public class ExchangeServiceWrapper {
@@ -31,7 +35,7 @@ public class ExchangeServiceWrapper {
     private ExchangeService authenticatedExchangeService;
     @Getter
     private boolean authenticationSuccess;
-
+String emailAddressForLg="";
     public boolean authenticateWithHardcodedCredentials() {
         try {
             authenticatedExchangeService = createExchangeServiceWithHardcodedCredentials();
@@ -95,20 +99,28 @@ public class ExchangeServiceWrapper {
             if(ewsSimpleSend.getEmail()[0].contains("@")){
                 for (String email : ewsSimpleSend.getEmail()) {
                     message.getToRecipients().add(email);
+                    emailAddressForLg = email;
 
                 }
                 System.out.println("emaill detected");
             } else {
                 for (String id: ewsSimpleSend.getEmail()){
-
-                    message.getToRecipients().add(userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail());
-                    System.out.println("added " +  userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail());
+                    emailAddressForLg =userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail();
+                    message.getToRecipients().add(emailAddressForLg);
+                    System.out.println("added " +  emailAddressForLg);
 
                 }
                 System.out.println("id detected");
             }
 
+
             message.send();
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("informations/mailLogs.txt", true))) {
+                writer.write("Email Sent to " + emailAddressForLg + " at " + LocalDate.now() + " about " + message.getBody()) ;
+                writer.newLine();
+            } catch (IOException e) {
+                System.out.println( "Writing to mailLogs.txt failed");
+            }
             ResponseEntity.ok("Email sent successfully.");
         } catch (Exception e){
             System.err.println("Error sending email: " + e.getMessage());
