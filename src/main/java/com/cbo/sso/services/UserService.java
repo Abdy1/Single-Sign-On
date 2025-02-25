@@ -1,5 +1,6 @@
 package com.cbo.sso.services;
 
+import com.cbo.sso.exceptions.ResourceNotFoundException;
 import com.cbo.sso.exceptions.UserAlreadyExistsException;
 import com.cbo.sso.exceptions.UserNotFoundException;
 import com.cbo.sso.models.Role;
@@ -89,6 +90,7 @@ public class UserService {
         }
     }
     public User updateUser(String username, MultipartFile rolesFile) throws IOException {
+
         ObjectMapper objectMapper = new ObjectMapper();
         Set<Role> roles = objectMapper.readValue(rolesFile.getBytes(), new TypeReference<Set<Role>>(){});
         User user = userRepository.findByUsername(username);
@@ -97,6 +99,22 @@ public class UserService {
         user.setRoles(allRoles);
         userRepository.save(user);
         return user;
+    }
+
+    public User changeAD(String id, String adUser) throws IOException {
+
+        Optional<User> optionalUser = userRepository.findUserById(Long.valueOf(id));
+        if (optionalUser.isPresent()) {
+            User user = optionalUser.get(); // Get the User object
+            user.setUsername(adUser); // Set the username
+            userRepository.save(user); // Save the updated User object
+            return user; // Return the updated User object
+        } else {
+            throw new UserNotFoundException("User with provided id doesn't exist!");
+        }
+
+
+
     }
 
     public User deleteUserRole(Long user_id, Long role_id) throws IOException {

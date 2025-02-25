@@ -129,6 +129,16 @@ public class UserController {
         return ResponseEntity.created(location).body(newUser);
     }
 
+    @PostMapping("/update/ad")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    public ResponseEntity<User> updateUser(@RequestBody User user
+    ) throws IOException {
+
+        User newUser = userService.changeAD(String.valueOf(user.getId()), user.getUsername());
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newUser.getId()).toUri();
+        return ResponseEntity.created(location).body(newUser);
+    }
+
 
     @PostMapping("/delete-role")
     public ResponseEntity<?> deleteUserRole(@RequestBody Map<String, Long> request) {

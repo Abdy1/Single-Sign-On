@@ -22,7 +22,7 @@ public class SSOApplication {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
 
-		corsConfiguration.setAllowedOrigins(Arrays.asList("http://10.1.125.58:4400", "http://10.1.11.48:4200", "http://localhost:4200", "http://10.1.125.58:4200","http://192.168.137.166:4200","http://10.1.125.58:4401"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList("http://10.1.125.58:4400", "http://10.1.11.48:4200", "http://localhost:4200", "http://10.1.125.58:4200","http://192.168.137.166:4200","http://10.1.125.58:4401","http://10.12.53.58:4401","http://localhost:4200/"));
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
 				"Access-Control-Request-Method", "Access-Control-Request-Headers"));
