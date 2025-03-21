@@ -63,7 +63,7 @@ private UserService userService;
     public List<ADUserDetails> searchBySamAccountName(@PathVariable String samAccountName) {
         return userDetailService.getDetail(samAccountName);
     }
-    @GetMapping("/ADUser/searchById/{id}")
+        @GetMapping("/ADUser/searchById/{id}")
     public List<ADUserDetails> searchByUserId(@PathVariable Long id) {
        User user =  userService.findUserByUserId(id);
        return  searchByUserName(user.getUsername());
