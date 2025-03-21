@@ -56,6 +56,8 @@ public class DatabaseSeeder {
         seedModulesTable("CMS", "COB Monitoring System","http://10.1.125.58:8088", true);
         seedModulesTable("AMS", "Audit Management System","http://10.1.125.58:8089", true);
         seedModulesTable("SMS", "SMS Management System","http://10.1.125.58:8090", true);
+        seedModulesTable("SMS", "SMS Management System","http://10.1.125.58:8090", true);
+
 
         seedRolesTable(ROLE_SUPER_ADMIN, null);
         seedRolesTable(ROLE_EMS_ADMIN, ROLE_SUPER_ADMIN);

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
 import java.util.Map;
 
 @RestController
@@ -59,11 +60,15 @@ public class EWSController {
 
     @PostMapping("/send-to")
     public void sendTo(@RequestBody EWSSimpleSend ewsSimpleSend) throws Exception{
-        System.out.println(ewsSimpleSend + "hi there im tryhna send this");
+        System.out.println("Sending Mail to "+ Arrays.toString(ewsSimpleSend.getEmail()));
+        try{
         if(ewsSimpleSend.getShortCircuit()){
            exchangeServiceWrapper.authenticateWithHardcodedCredentials();
         }
-        exchangeServiceWrapper.sendEmail(ewsSimpleSend);
+        exchangeServiceWrapper.sendEmail(ewsSimpleSend);}
+        catch (Exception e){
+            System.out.println("Sending Error");
+        }
     }
 }
 

@@ -102,7 +102,7 @@ String emailAddressForLg="";
                     emailAddressForLg = email;
 
                 }
-                System.out.println("emaill detected");
+                System.out.println("email detected " + emailAddressForLg);
             } else {
                 for (String id: ewsSimpleSend.getEmail()){
                     emailAddressForLg =userDetailService.getDetail(userService.findUserById(Long.valueOf(id)).getUsername()).get(0).getMail();
@@ -110,7 +110,7 @@ String emailAddressForLg="";
                     System.out.println("added " +  emailAddressForLg);
 
                 }
-                System.out.println("id detected");
+                System.out.println("id detected " + emailAddressForLg);
             }
 
 
