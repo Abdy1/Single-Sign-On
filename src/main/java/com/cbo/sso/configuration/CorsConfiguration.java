@@ -13,6 +13,8 @@ public class CorsConfiguration {
     private static final String POST = "POST";
     private static final String PUT = "PUT";
     private static final String DELETE = "DELETE";
+    private static final String OPTION = "OPTION";
+
 
     @Bean
     public WebMvcConfigurer corsConfigurer(){
@@ -21,7 +23,7 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedMethods(GET,POST,PUT,DELETE)
+                        .allowedMethods(GET,POST,PUT,DELETE,OPTION)
                         .allowedHeaders("*")
                         .allowedOriginPatterns("*")
                         .allowCredentials(true);

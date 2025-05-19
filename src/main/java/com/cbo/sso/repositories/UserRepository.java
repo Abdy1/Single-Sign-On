@@ -28,7 +28,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @Query("SELECT COUNT(u) FROM User u WHERE u.username LIKE %:searchString%")
     Long countByUsernameContaining(@Param("searchString") String searchString);
 
-    User findByUsername(String username);
+    Optional<User> getByUsername(String username);
+  User findByUsername(String username);
 
     //User findByEmployee(Employee employee);
     User findFirstByOrderByIdDesc();

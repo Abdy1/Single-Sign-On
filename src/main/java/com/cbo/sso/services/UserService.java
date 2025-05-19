@@ -91,7 +91,30 @@ public class UserService {
     public User updateUser(String username, MultipartFile rolesFile) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         Set<Role> roles = objectMapper.readValue(rolesFile.getBytes(), new TypeReference<Set<Role>>(){});
+        Optional<User> userCheck = userRepository.getByUsername(username);
+        if(!userCheck.isPresent()){
+            System.out.println(username + "Not Found");
+            return null;
+        }
+     User user = userRepository.findByUsername(username);
+
+        Set<Role> allRoles = user.getRoles();
+        allRoles.addAll(roles);
+        user.setRoles(allRoles);
+        userRepository.save(user);
+        return user;
+    }
+
+    public User updateUserRole(String username, String rolesJson) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        List<Role> roles = objectMapper.readValue(rolesJson, new TypeReference<List<Role>>() {});
+        Optional<User> userCheck = userRepository.getByUsername(username);
+        if(!userCheck.isPresent()){
+            System.out.println(username + "Not Found");
+            return null;
+        }
         User user = userRepository.findByUsername(username);
+
         Set<Role> allRoles = user.getRoles();
         allRoles.addAll(roles);
         user.setRoles(allRoles);

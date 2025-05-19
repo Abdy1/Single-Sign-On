@@ -79,7 +79,7 @@ public class UserController {
     }
     @PostMapping("/add")
     @PreAuthorize("hasAnyRole('SYSTEM_ADMIN')")
-    public ResponseEntity<User> addUser(@RequestBody
+    public ResponseEntity<User> addUser(
                                         @RequestParam(name="employeeImage", required = false) MultipartFile employeeImage,
                                         @RequestParam(name="signatureImage", required = false) MultipartFile signatureImage,
                                         @RequestParam(name="username") String username,
@@ -119,8 +119,7 @@ public class UserController {
 
     @PostMapping("/update")
     @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
-    public ResponseEntity<User> updateUser(@RequestBody
-                                           @RequestParam(name="username") String username,
+    public ResponseEntity<User> updateUser( @RequestParam(name="username") String username,
                                            @RequestPart("roles") MultipartFile rolesFile
     ) throws IOException {
 
@@ -128,6 +127,18 @@ public class UserController {
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newUser.getId()).toUri();
         return ResponseEntity.created(location).body(newUser);
     }
+
+    @PostMapping("/updateRole")
+    @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
+    public ResponseEntity<User> updateUserRole( @RequestParam(name="username") String username,
+                                            @RequestPart("roles") String roles
+    ) throws IOException {
+
+        User newUser = userService.updateUserRole(username, roles);
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newUser.getId()).toUri();
+        return ResponseEntity.created(location).body(newUser);
+    }
+
 
 
     @PostMapping("/delete-role")
