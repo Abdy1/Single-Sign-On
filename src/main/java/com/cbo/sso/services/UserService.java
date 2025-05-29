@@ -42,6 +42,7 @@ import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -105,14 +106,26 @@ public class UserService {
         return user;
     }
 
-    public User updateUserRole(String username, String rolesJson) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        List<Role> roles = objectMapper.readValue(rolesJson, new TypeReference<List<Role>>() {});
-        Optional<User> userCheck = userRepository.getByUsername(username);
+    public User updateUserRole(String username, Map<String, String> rolesMap) throws IOException {
+    Optional<User> userCheck = userRepository.getByUsername(username);
         if(!userCheck.isPresent()){
             System.out.println(username + "Not Found");
             return null;
         }
+        List<Role> roles = rolesMap.entrySet().stream()
+                .filter(entry -> entry.getKey().startsWith("roles["))
+                .sorted(Comparator.comparingInt(entry ->
+                        Integer.parseInt(entry.getKey().replaceAll("[^0-9]", ""))
+                ))
+                .map(entry -> {
+                    try {
+                        return new ObjectMapper().readValue(entry.getValue(), Role.class);
+                    } catch (IOException e) {
+                        throw new RuntimeException("Invalid role JSON: " + entry.getValue(), e);
+                    }
+                })
+                .collect(Collectors.toList());
+
         User user = userRepository.findByUsername(username);
 
         Set<Role> allRoles = user.getRoles();

@@ -131,10 +131,12 @@ public class UserController {
     @PostMapping("/updateRole")
     @PreAuthorize("hasAnyRole('SUPER_ADMIN','SYSTEM_ADMIN' ,'EMS_ADMIN', 'CC_ADMIN', 'ICMS_ADMIN', 'SASV_ADMIN', 'MEMO_ADMIN', 'ECX_ADMIN', 'CMS_ADMIN' )")
     public ResponseEntity<User> updateUserRole( @RequestParam(name="username") String username,
-                                            @RequestPart("roles") String roles
-    ) throws IOException {
+                                                @RequestParam Map<String, String> rolesMap
 
-        User newUser = userService.updateUserRole(username, roles);
+
+                                                ) throws IOException {
+
+        User newUser = userService.updateUserRole(username, rolesMap);
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newUser.getId()).toUri();
         return ResponseEntity.created(location).body(newUser);
     }
