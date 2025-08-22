@@ -1,5 +1,6 @@
 package com.cbo.sso;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -13,6 +14,8 @@ import java.util.Arrays;
 @SpringBootApplication
 public class SSOApplication {
 
+	@Value("${allowed.origins}")
+	private String allowedOrigins;
 	public static void main(String[] args) {
 		SpringApplication.run(SSOApplication.class, args);
 	}
@@ -22,7 +25,7 @@ public class SSOApplication {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
 
-		corsConfiguration.setAllowedOrigins(Arrays.asList("http://10.1.125.58:4400", "http://10.1.11.48:4200", "http://localhost:4200", "http://10.1.125.58:4200","http://192.168.137.166:4200","http://10.1.125.58:4401"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList(allowedOrigins.split(",")));
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
 				"Access-Control-Request-Method", "Access-Control-Request-Headers"));
