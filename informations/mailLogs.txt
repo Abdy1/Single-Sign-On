@@ -1,0 +1,829 @@
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <html><head><meta charset="UTF-8"><style>body { margin:0; padding:0; background-color:#f5f7f9; font-family: Arial, sans-serif; }.container { max-width:600px; margin:30px auto; background:#ffffff; border-radius:10px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1); }.header { background-color:#00bcd4; padding:20px 0; text-align:center; }.header h1 { margin:0; color:#000000; font-size:28px; font-weight:700; }.header .subheader { font-size:18px; color:#000000; margin-top:4px; font-weight:500; }.content { padding:30px 24px; color:#333333; font-size:15px; line-height:1.6; }.footer { background-color:#00bcd4; padding:15px; text-align:center; font-size:12px; color:#000000; }.btn { display:inline-block; margin-top:20px; padding:10px 18px; background:#007c91; color:#ffffff; text-decoration:none; border-radius:5px; font-size:14px; }</style></head><body><div class="container"><div class="header"><h1>Coop Bank Oromia</h1><div class="subheader">Realflow Notification</div></div><div class="content"><p>test</p>Testing email using html</div><div class="footer">© 2026 Coop Bank Oromia. All rights reserved.<br/>Designed by Application Team</div></div></body></html>
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about 
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width,initial-scale=1" />
+ <title>Coop Bank Oromia — Notification</title>
+ <style>
+ </style>
+</head>
+<body>
+ <!-- Preheader (hidden preview text) -->
+ <span class="preheader">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+ <div class="email-wrapper">
+ <div class="email-body">
+ <!-- Header -->
+ <div class="header" role="banner" aria-label="Coop Bank Oromia Header">
+ <div class="brand-logo" aria-hidden="true">
+ <img src="#" alt="Coop Bank Oromia Logo">
+ </div>
+ <div class="brand-title">
+ <h1>Coop Bank Oromia</h1>
+ <p>Realflow Notification</p>
+ </div>
+ </div>
+ <!-- Content -->
+ <div class="content" role="main">
+ <div class="hero" aria-hidden="false">
+ <p class="greeting">Hello <strong>Ephrem Daniel</strong>,</p>
+ <p class="message">Testing email using html</p>
+ </div>
+ <!-- CTA / Action (optional) -->
+ <div class="btn-wrap" role="group" aria-label="Actions">
+ <a href="mailto:info@coopbankoromia.com.et" class="btn" target="_blank" rel="noopener">Take Action</a>
+ <p class="muted">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>
+ </div>
+ <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45">
+ <strong>Need help?</strong>
+ <p style="margin:6px 0 0">Call our support center: <a href="tel:+251000000000" style="color:#007c91;font-weight:700">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com\" style="color:#007c91;font-weight:700">coopbankoromia.com</a></p>
+ </div>
+ </div>
+ <!-- Footer -->
+ <div class="footer" role="contentinfo">
+ <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+ <div style="margin-top:6px;color:#7a8a90;font-size:12px">Designed by Application Team</div>
+ <div class="social" aria-hidden="true" style="margin-top:12px">
+ <a href="#" title="Facebook">f</a>
+ <a href="#" title="Twitter">t</a>
+ <a href="#" title="LinkedIn">in</a>
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n  <title>Coop Bank Oromia — Notification</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;\">\n  <!-- Preheader (hidden preview text) -->\n  <span style=\"display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;\">Coop Bank Oromia — Important Notification: Please review the message inside.</span>\n  <div style=\"width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;\">\n    <div style=\"max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;\">\n      <!-- Header -->\n      <div role=\"banner\" aria-label=\"Coop Bank Oromia Header\" style=\"background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;\">\n        <div style=\"display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;\">\n          <img src=\"#\" alt=\"Coop Bank Oromia Logo\" style=\"width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;\">\n        </div>\n        <div style=\"display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;\">\n          <h1 style=\"margin:0;font-size:16px;color:#ffffff;font-weight:700;\">Coop Bank Oromia</h1>\n          <p style=\"margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);\">Realflow Notification</p>\n        </div>\n      </div>\n      <!-- Content -->\n      <div role=\"main\" style=\"padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;\">\n        <div style=\"background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;\">\n          <p style=\"margin:0 0 8px 0;font-weight:600;\">Hello <strong>Ephrem Daniel</strong>,</p>\n          <p style=\"margin:0;color:#22343a;\">Testing email using html</p>\n        </div>\n        <!-- CTA / Action (optional) -->\n        <div role=\"group\" aria-label=\"Actions\" style=\"margin-top:12px;box-sizing:border-box;\">\n          <a href=\"mailto:info@coopbankoromia.com.et\" target=\"_blank\" rel=\"noopener\" style=\"display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;\">Take Action</a>\n          <p style=\"margin:8px 0 0;color:#5b6a72;font-size:13px;\">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>\n        </div>\n        <div style=\"margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;\">\n          <strong>Need help?</strong>\n          <p style=\"margin:6px 0 0;\">Call our support center: <a href=\"tel:+251000000000\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">+251 00 000 0000</a> or visit <a href=\"https://www.coopbankoromia.com\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">coopbankoromia.com</a></p>\n        </div>\n      </div>\n      <!-- Footer -->\n      <div role=\"contentinfo\" style=\"padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;\">\n        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>\n        <div style=\"margin-top:6px;color:#7a8a90;font-size:12px;\">Designed by Application Team</div>\n        <div style=\"margin-top:12px;\">\n          <a href=\"#\" title=\"Facebook\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">f</a>\n          <a href=\"#\" title=\"Twitter\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">t</a>\n          <a href=\"#\" title=\"LinkedIn\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;\">in</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style=\"margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;\">
+  <!-- Preheader (hidden preview text) -->
+  <span style=\"display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;\">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style=\"width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;\">
+    <div style=\"max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;\">
+      <!-- Header -->
+      <div role=\"banner\" aria-label=\"Coop Bank Oromia Header\" style=\"background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;\">
+        <div style=\"display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;\">
+          <img src=\"#\" alt=\"Coop Bank Oromia Logo\" style=\"width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;\">
+        </div>
+        <div style=\"display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;\">
+          <h1 style=\"margin:0;font-size:16px;color:#ffffff;font-weight:700;\">Coop Bank Oromia</h1>
+          <p style=\"margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);\">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role=\"main\" style=\"padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;\">
+        <div style=\"background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;\">
+          <p style=\"margin:0 0 8px 0;font-weight:600;\">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style=\"margin:0;color:#22343a;\">Testing email using html</p>
+        </div>
+        <!-- CTA / Action (optional) -->\n        <div role=\"group\" aria-label=\"Actions\" style=\"margin-top:12px;box-sizing:border-box;\">
+          <a href=\"mailto:info@coopbankoromia.com.et\" target=\"_blank\" rel=\"noopener\" style=\"display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;\">Take Action</a>
+          <p style=\"margin:8px 0 0;color:#5b6a72;font-size:13px;\">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>\n        </div>
+        <div style=\"margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;\">\n          <strong>Need help?</strong>\n          <p style=\"margin:6px 0 0;\">Call our support center: <a href=\"tel:+251000000000\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">+251 00 000 0000</a> or visit <a href=\"https://www.coopbankoromia.com\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role=\"contentinfo\" style=\"padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;\">\n        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>\n        <div style=\"margin-top:6px;color:#7a8a90;font-size:12px;\">Designed by Application Team</div>\n        <div style=\"margin-top:12px;\">\n          <a href=\"#\" title=\"Facebook\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">f</a>
+          <a href=\"#\" title=\"Twitter\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">t</a>
+          <a href=\"#\" title=\"LinkedIn\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;\">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"utf-8\" />
+  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style=\"margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;\">
+  <!-- Preheader (hidden preview text) -->
+  <span style=\"display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;\">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style=\"width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;\">
+    <div style=\"max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;\">
+      <!-- Header -->
+      <div role=\"banner\" aria-label=\"Coop Bank Oromia Header\" style=\"background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;\">
+        <div style=\"display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;\">
+          <img src=\"#\" alt=\"Coop Bank Oromia Logo\" style=\"width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;\">
+        </div>
+        <div style=\"display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;\">
+          <h1 style=\"margin:0;font-size:16px;color:#ffffff;font-weight:700;\">Coop Bank Oromia</h1>
+          <p style=\"margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);\">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role=\"main\" style=\"padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;\">
+        <div style=\"background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;\">
+          <p style=\"margin:0 0 8px 0;font-weight:600;\">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style=\"margin:0;color:#22343a;\">Testing email using html</p>
+        </div>
+        <!-- CTA / Action (optional) -->
+        <div role=\"group\" aria-label=\"Actions\" style=\"margin-top:12px;box-sizing:border-box;\">
+          <a href=\"mailto:info@coopbankoromia.com.et\" target=\"_blank\" rel=\"noopener\" style=\"display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;\">Take Action</a>
+          <p style=\"margin:8px 0 0;color:#5b6a72;font-size:13px;\">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>
+        </div>
+        <div style=\"margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;\">
+          <strong>Need help?</strong>
+          <p style=\"margin:6px 0 0;\">Call our support center: <a href=\"tel:+251000000000\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">+251 00 000 0000</a> or visit <a href=\"https://www.coopbankoromia.com\" style=\"color:#007c91;font-weight:700;text-decoration:none;\">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role=\"contentinfo\" style=\"padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;\">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style=\"margin-top:6px;color:#7a8a90;font-size:12px;\">Designed by Application Team</div>
+        <div style=\"margin-top:12px;\">
+          <a href=\"#\" title=\"Facebook\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">f</a>
+          <a href=\"#\" title=\"Twitter\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;\">t</a>
+          <a href=\"#\" title=\"LinkedIn\" style=\"display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;\">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Coop Bank Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;">
+          <img src="#" alt="Coop Bank Oromia Logo" style="width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;">
+        </div>
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Coop Bank Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <!-- CTA / Action (optional) -->
+        <div role="group" aria-label="Actions" style="margin-top:12px;box-sizing:border-box;">
+          <a href="mailto:info@coopbankoromia.com.et" target="_blank" rel="noopener" style="display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;">Take Action</a>
+          <p style="margin:8px 0 0;color:#5b6a72;font-size:13px;">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel:+251000000000" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="#" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="#" title="Twitter" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">t</a>
+          <a href="#" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Coop Bank Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;">
+          <img src="#" alt="Coop Bank Oromia Logo" style="width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;">
+        </div>
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Coop Bank Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <!-- CTA / Action (optional) -->
+        <div role="group" aria-label="Actions" style="margin-top:12px;box-sizing:border-box;">
+          <a href="mailto:info@coopbankoromia.com.et" target="_blank" rel="noopener" style="display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;">Take Action</a>
+          <p style="margin:8px 0 0;color:#5b6a72;font-size:13px;">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel:+251000000000" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="#" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="#" title="Twitter" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">t</a>
+          <a href="#" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Coop Bank Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;">
+          <img src="#" alt="Coop Bank Oromia Logo" style="width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;">
+        </div>
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Coop Bank Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <!-- CTA / Action (optional) -->
+        <div role="group" aria-label="Actions" style="margin-top:12px;box-sizing:border-box;">
+          <a href="mail to:info@coopbankoromia.com.et" target="_blank" rel="noopener" style="display:inline-block;padding:10px 14px;background-color:#007c91;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:700;font-size:14px;">Take Action</a>
+          <p style="margin:8px 0 0;color:#5b6a72;font-size:13px;">If you did not expect this message, please contact Cooperative Bank of Oromia (S.C) immediately.</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="#" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="#" title="Twitter" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">t</a>
+          <a href="#" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Coop Bank Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Coop Bank Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;width:48px;height:48px;border-radius:6px;background:#ffffff;overflow:hidden;text-align:center;box-sizing:border-box;">
+          <img src="#" alt="Coop Bank Oromia Logo" style="width:40px;height:40px;display:block;margin:4px auto;border:0;outline:none;text-decoration:none;">
+        </div>
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Coop Bank Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="#" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="#" title="Twitter" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">t</a>
+          <a href="#" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coop Bank Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Coop Bank Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Coop Bank Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#007c91;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#1DE8F5;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#007c91;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#007c91;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#1DE8F5;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#1DE8F5;font-weight:700;text-decoration:none;">+251 00 000 0000</a> or visit <a href="https://www.coopbankoromia.com" style="color:#1DE8F5;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;text-alignment:center;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>ephrem daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:#1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:#1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:#1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+          <p style="margin:6px 0 0;">Contact: <a href="#" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> ITSM </a> </p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
+Email Sent to ephrem.daniel@coopbankoromiasc.com at 2026-02-24 about <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cooperative Bank of Oromia — Notification</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f6f8;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;">
+  <!-- Preheader (hidden preview text) -->
+  <span style="display:none!important;visibility:hidden;opacity:0;height:0;width:0;font-size:1px;color:#ffffff;line-height:1;overflow:hidden;">Cooperative Bank of Oromia — Important Notification: Please review the message inside.</span>
+  <div style="width:100%;background:#f3f6f8;padding:20px 12px;box-sizing:border-box;">
+    <div style="max-width:620px;margin-left:auto;margin-right:auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);box-sizing:border-box;">
+      <!-- Header -->
+      <div role="banner" aria-label="Cooperative Bank of Oromia Header" style="background-color:#1CD5FF;padding:12px 16px;display:block;color:#ffffff;box-sizing:border-box;">
+        <div style="display:inline-block;vertical-align:middle;margin-left:12px;line-height:1;">
+          <h1 style="margin:0;font-size:16px;color:#ffffff;font-weight:700;">Cooperative Bank of Oromia</h1>
+          <p style="margin:2px 0 0;font-size:12px;color:rgba(255,255,255,0.9);">Realflow Notification</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <div role="main" style="padding:16px;color:#122434;font-size:14px;line-height:1.4;box-sizing:border-box;">
+        <div style="background:#f8fbfc;border:1px solid #e6f2f5;padding:12px;border-radius:6px;margin-bottom:12px;box-sizing:border-box;">
+          <p style="margin:0 0 8px 0;font-weight:600;">Hello <strong>Ephrem Daniel</strong>,</p>
+          <p style="margin:0;color:#22343a;">Testing email using html</p>
+        </div>
+        <div style="margin-top:16px;color:#44595f;font-size:13px;line-height:1.45;">
+          <strong>Need help?</strong>
+          <p style="margin:6px 0 0;">Call our support center: <a href="tel: 609" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> 609</a> or visit <a href="https://www.coopbankoromia.com" style="color:#1CD5FF;font-weight:700;text-decoration:none;">coopbankoromia.com</a></p>
+          <p style="margin:6px 0 0;">Contact: <a href="#" style="color:#1CD5FF;font-weight:700;text-decoration:none;"> ITSM </a> </p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div role="contentinfo" style="padding:12px 16px;background:transparent;color:#6a7b82;font-size:12px;text-align:center;box-sizing:border-box;">
+        <div>© 2026 Cooperative Bank of Oromia. All rights reserved.</div>
+        <div style="margin-top:6px;color:#7a8a90;font-size:12px;">Designed by Application Team</div>
+        <div style="margin-top:12px;">
+          <a href="https://www.facebook.com/share/1BiexZbHMx/" title="Facebook" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;margin-right:6px;">f</a>
+          <a href="https://www.linkedin.com/in/ephrem-daniel-31966b227/" title="LinkedIn" style="display:inline-block;width:28px;height:28px;border-radius:4px;background:#ffffff;border:1px solid #e1eef1;line-height:28px;text-align:center;color:#007c91;font-weight:700;text-decoration:none;">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>";
